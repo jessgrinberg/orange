@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /* SELECTION AVEC IMAGES*/
@@ -166,13 +166,13 @@ section:not(.section-carte):not(.section-temoignage) {
   padding: 60px 0;
 }
 
-section h2 {
+/*section h2 {
   font-size: 180%;
   word-spacing: 2px;
   text-align: center;
   letter-spacing: 1px;
   font-weight: 300;
-}
+}*/
 
 .section-solution h2,
 .section-thematiques h2,
@@ -215,7 +215,7 @@ section h2 {
 
 /*ICONS*/
 
-.icons h4 {
+/*.icons h4 {
   color: #ff3547;
   text-transform: uppercase;
   font-weight: 300;
@@ -230,7 +230,7 @@ section h2 {
 .icons p {
   text-align: justify;
   font-size: 14px;
-}
+}*/
 
 /*THEMATIQUES*/
 

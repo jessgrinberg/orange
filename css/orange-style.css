@@ -14,6 +14,25 @@
   color: #fff;
 }
 
+/* SECTIONS
+* --------------------------------------------------
+*/
+
+section h2 {
+  color: #FF7900;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+section p {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+section .icons p {
+  font-size: 18px;
+}
+
 
 
 /*HEADER SPLIT SCREEN*/
@@ -56,6 +75,32 @@
 
 .header-cta h1, .header-cta p  {
   margin-bottom: 2rem;
+}
+
+
+
+/* SECTION ICONS
+* --------------------------------------------------
+*/
+
+.icons h3 {
+  color: #FF7900;
+  font-weight: 300;
+  margin: 1rem 0;
+  font-size: 30px
+}
+
+.icons span {
+  font-weight: 700;
+}
+
+.icons img {
+  height: 100px;
+  margin: 0 auto;
+}
+
+.icons p {
+  font-size: 24px;
 }
 
 
