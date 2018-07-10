@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Lille</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/general-style.css">
+  </head>
+  
+  <body id="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="assets/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#topheader" aria-controls="topheader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="topheader">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Annuaire des associations
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Carte intéractive</a>
+              <a class="dropdown-item" href="#">Thématiques solidaires</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Espace bénévolat
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Carte intéractive</a>
+              <a class="dropdown-item" href="#">Agir près de chez soi</a>
+              <a class="dropdown-item" href="#">Publier une mission bénévole</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Coin du partage
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Carte intéractive</a>
+              <a class="dropdown-item" href="#">Proposer une ressource</a>
+              <a class="dropdown-item" href="#">Publier un besoin</a>
+            </div>
+          </li>
+        </ul>
+
+        <div class="btn-group">
+          <button type="button" class="btn btn-outline-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-user"></i>
+          </button>
+          <div class="dropdown-menu dropdown-menu-right">
+            <button class="dropdown-item" type="button">Je me connecte</button>
+            <button class="dropdown-item" type="button">Je m'inscris</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container-fluid">
+        <div class="row row-eq-height">
+          <div class="col-sm-12 col-md-6 header-img">
+          </div>
+          <div class="col-sm-12 col-md-6 header-cta text-center text-md-left">
+            <div class="container d-flex h-100">
+              <div class="row align-self-center justify-content-center justify-content-md-start">
+                <h1>L'annuaire associatif de la ville de Lille</h1>
+                <p class="lead">Retrouvez tous les appels à mobilisation bénévole annoncés par les associations et collectifs Lilloises.</p>
+                <a href="#" class="btn btn-danger cta">C'est parti !</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section-solution">
+      <div class="container">
+        <h2>Notre Solution</h2>
+        <p class="long-copy lead">Un aide numérique pour tous les projets à impact positifs</p>
+        <div class="row text-center">
+          <div class="col-sm-12 col-md-4 icons">
+            <img src="assets/icons/annuaire/annoncer_besoins.svg" alt="">
+            <h4>Annoncer<br><strong>ses besoins</strong></h4>
+            <p>Faire connaître une cause, une action, une rencontre, ou des besoins bénévoles ponctuels / réguliers :
+              cette plateforme permet de publier des appels à mobilisation sur Lille, en quelques clics &amp; gratuitement.</p>
+          </div>
+          <div class="col-sm-12 col-md-4 icons">
+            <img src="assets/icons/annuaire/mobilisation_ressources.svg" alt="">
+            <h4>Mobilisation<br><strong>des ressources</strong></h4>
+            <p>Chaque mission est classée par thématique solidaire puis géolocalisée sur une carte interactive de la ville de Lille.
+              Dès lors, les citoyens ont accès à toutes les informations nécessaires et peuvent contacter le porteur de projet !</p>
+          </div>
+          <div class="col-sm-12 col-md-4 icons">
+            <img src="assets/engager_communaute.svg" alt="">
+            <h4>Engager<br><strong>une communauté</strong></h4>
+            <p>Actualités, témoignages, partages facilités des appels à mobilisation sur les réseaux sociaux, etc. : cette plateforme
+              vise à renforcer les liens solidaires &amp; améliorer les synergies entre tous les acteurs engagés à Lille.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-thematiques">
+      <div class="container">
+        <h2>12 Thématiques Solidaires</h2>
+        <p class="long-copy lead">Centre d'intérêts bénévoles</p>
+        <div class="row text-center">
+          <div class="col-xs-12 col-sm-6 col-md-3 row-eq-height">
+            <div class="thematique">
+              <img src="assets/boutons_thematiques/BOUTON_lien_social.png" alt="">
+              <h6>Lien<br>Social</h6>
+              <p>Aide au déplacement, lutte contre l’isolement, coup de pouce entre voisins.</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 row-eq-height">
+            <div class="thematique">
+              <img src="assets/boutons_thematiques/BOUTON_art_culture.png" alt="">
+              <h6>Activités Artistiques &amp; <br>Culturelles</h6>
+              <p>Animations, visites, rencontres, etc à partager aussi en famille!</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 row-eq-height">
+            <div class="thematique">
+              <img src="assets/boutons_thematiques/BOUTON_sport_loisirs.png" alt="">
+              <h6>Activités Sportives<br>&amp; de Loisirs</h6>
+              <p>S’aérer, se dépenser, et surtout partager sûr et en dehors des terrains.</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 row-eq-height">
+            <div class="thematique">
+              <img src="assets/boutons_thematiques/BOUTON_environnement.png" alt="">
+              <h6>Chantiers<br>Environnementaux</h6>
+              <p>Sauvegarde, rénovation &amp; protection des patrimoines écologiques et urbains.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-xs-12 col-sm-6 col-md-3 row-eq-height">
+            <div class="thematique">
+              <img src="assets/boutons_thematiques/BOUTON_collecte_distribution.png" alt="">
+              <h6>Collecte &amp;<br>Distribution</h6>
+              <p>Nourriture, vêtements, dons, etc. pour ceux qui ont le coeur sur la main &amp; l’horreur du gaspillage!</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 row-eq-height">
+            <div class="thematique">
+              <img src="assets/boutons_thematiques/BOUTON_juridique_droit.png" alt="">
+              <h6>Conseils <br>Juridiques</h6>
+              <p>Droits de l’Homme, Défenses des Causes, traduction, écrivain public, etc.</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 row-eq-height">
+            <div class="thematique">
+              <img src="assets/boutons_thematiques/BOUTON_evenement.png" alt="">
+              <h6>Organisation<br>&amp; d'Évènements</h6>
+              <p>Accueil, information, logistique, gestion: c’est soutenir une action avant &amp; pendant le jour J.</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 row-eq-height">
+            <div class="thematique">
+              <img src="assets/boutons_thematiques/BOUTON_gestion_associative.png" alt="">
+              <h6>Gestion<br>Associative</h6>
+              <p>Administration, communication &amp; toute compétence nécessaire au développement.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-xs-12 col-sm-6 col-md-3 row-eq-height">
+            <div class="thematique">
+              <img src="assets/boutons_thematiques/BOUTON_solidarite_internationale.png" alt="">
+              <h6>Solidarité<br>Internationale</h6>
+              <p>Mouvements, causes, ONG, etc. Pour soutenir ceux qui agissent bien au-delà de nos frontières.</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 row-eq-height">
+            <div class="thematique">
+              <img src="assets/boutons_thematiques/BOUTON_grande_precarite.png" alt="">
+              <h6>Grande<br>Précarité</h6>
+              <p>Maraude, secourisme, etc. Pour être au plus près de ceux qui en ont besoin, sur le terrain.</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 row-eq-height">
+            <div class="thematique">
+              <img src="assets/boutons_thematiques/BOUTON_aide_devoir_formation.png" alt="">
+              <h6>Aide<br>au Devoir</h6>
+              <p>Enseignement, formation, &amp; toute aide à l’orientation &amp; la prise de confiance.</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3 row-eq-height">
+            <div class="thematique">
+              <img src="assets/boutons_thematiques/BOUTON_autre.png" alt="">
+              <h6>Autres &amp;<br>Inclassables</h6>
+              <p>Des projets unqiues ou très spécifiques, destinés aux plus curieux d’entre nous.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-filtre">
+      <div class="container">
+        <h2>Carte intéractive</h2>
+        <p class="long-copy lead">Découvrez les acteurs qui s'engagent près de chez vous</p>
+        <div class="row">
+          <form class="form-inline">
+            <div class="form-group mb-2 col-sm-12 col-md-6 col-lg-2">
+               <select class="form-control custom-select" id="exampleFormControlSelect1">
+                 <option disabled selected value>A / Z</option>
+                 <option>A</option>
+                 <option>B</option>
+                 <option>C</option>
+                 <option>D</option>
+                 <option>E</option>
+                 <option>F</option>
+                 <option>G</option>
+                 <option>H</option>
+                 <option>I</option>
+                 <option>J</option>
+                 <option>K</option>
+                 <option>L</option>
+                 <option>M</option>
+                 <option>N</option>
+                 <option>O</option>
+                 <option>P</option>
+                 <option>Q</option>
+                 <option>R</option>
+                 <option>S</option>
+                 <option>T</option>
+                 <option>U</option>
+                 <option>V</option>
+                 <option>W</option>
+                 <option>X</option>
+                 <option>Y</option>
+                 <option>Z</option>
+               </select>
+            </div>
+            <div class="form-group mb-2 col-sm-12 col-md-6 col-lg-3">
+              <div class="icon-addon addon-md">
+                <input type="text" placeholder="Localisation" class="form-control" id="localisation">
+                <label for="localisation" class="fa fa-location-arrow" title="localisation"></label>
+              </div>
+            </div>
+
+            <div class="dropdown form-group mb-2 col-sm-12 col-md-6 col-lg-3 dropdown-img">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Thématique Solidaire
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#">
+                    <img src="assets/icons/icons_lille-yellow.png" />Lien Social</a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="assets/icons/icons_lille-yellow.png" />Activités Artistiques &amp; Culturelles</a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="assets/icons/icons_lille-yellow.png" />Activités Sportives &amp; de Loisirs</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- <div class="form-group mb-2 col-sm-12 col-md-6 col-lg-3">
+             <select class="form-control custom-select" id="thematiqueFormControlSelect">
+                 <option disabled selected value>Thématique solidaire</option>
+                 <option>Lien Social</option>
+                 <option>Activités Artistiques &amp; Culturelles</option>
+                 <option>Activités Sportives &amp; de Loisirs</option>
+                 <option>Chantiers Environnementaux</option>
+                 <option>Collecte &amp; Distribution</option>
+                 <option>Conseils Juridiques</option>
+                 <option>Organisation &amp; d'Évènements</option>
+                 <option>Gestion Associative</option>
+                 <option>Solidarité Internationale</option>
+                 <option>Grande Précarité</option>
+                 <option>Aide au Devoir</option>
+                 <option>Autres &amp; Inclassables</option>
+               </select>
+            </div> -->
+            <div class="form-group mb-2 col-sm-12 col-md-6 col-lg-3">
+              <div class="icon-addon addon-md">
+               <input type="text" placeholder="Mot clé" class="form-control" id="mot-cle">
+               <label for="mot-cle" class="fa fa-search" title="mot-cle"></label>
+              </div>
+            </div>
+            <div class="submit col-sm-12 col-md-12 col-lg-1 mb-2 text-center">
+              <button type="submit" class="btn btn-danger"><i class="fa fa-paper-plane"></i></button>
+            </div>
+            <div class="col-xs-12 mb-2 reset">
+              <button type="reset" value="Reset"  class="btn btn-dark"><i class="fa fa-times"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-carte">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-8 col-lg-6 py-4">
+            <div class="container-fluid"> <!-- If Needed Left and Right Padding in 'md' and 'lg' screen means use container class -->
+              <h5>Parcourir les mission (5)</h5>
+              <div class="row">
+                <div class="col-sm-12 col-md-6 mb-2 content">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-top" alt="Card image cap" width="600">
+                    <div class="card-body">
+                      <p class="card-text"><img src="assets/bc79986ab88973a9d021440da870fcff8697a49c.jpg" alt="" class="img-fluid m-2" style="max-width:80px;"></p>
+                      <h5 class="card-title">Connexion personnes agées étudiants 1</h5>
+                    </div>
+                    <div class="card-footer">
+                      <div class="pull-left">
+                        <i class="fa fa-calendar"></i> <span class="font-weight-light">5/12/17 - 5/03/18</span>
+                      </div>
+                      <div class="pull-right">
+                        <i class="fa fa-map-marker"></i> <span class="font-weight-light">Lille, France</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 mb-2 content">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-top" alt="Card image cap" width="600">
+                    <div class="card-body">
+                      <p class="card-text"><img src="assets/bc79986ab88973a9d021440da870fcff8697a49c.jpg" alt="" class="img-fluid m-2" style="max-width:80px;"></p>
+                      <h5 class="card-title">Connexion personnes agées étudiants 2</h5>
+                    </div>
+                    <div class="card-footer">
+                      <div class="pull-left">
+                        <i class="fa fa-calendar"></i> <span class="font-weight-light">5/12/17 - 5/03/18</span>
+                      </div>
+                      <div class="pull-right">
+                        <i class="fa fa-map-marker"></i> <span class="font-weight-light">Lille, France</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 mb-2 content">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-top" alt="Card image cap" width="600">
+                    <div class="card-body">
+                      <p class="card-text"><img src="assets/bc79986ab88973a9d021440da870fcff8697a49c.jpg" alt="" class="img-fluid m-2" style="max-width:80px;"></p>
+                      <h5 class="card-title">Connexion personnes agées étudiants 3</h5>
+                    </div>
+                    <div class="card-footer">
+                      <div class="pull-left">
+                        <i class="fa fa-calendar"></i> <span class="font-weight-light">5/12/17 - 5/03/18</span>
+                      </div>
+                      <div class="pull-right">
+                        <i class="fa fa-map-marker"></i> <span class="font-weight-light">Lille, France</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 mb-2 content">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-top" alt="Card image cap" width="600">
+                    <div class="card-body">
+                      <p class="card-text"><img src="assets/bc79986ab88973a9d021440da870fcff8697a49c.jpg" alt="" class="img-fluid m-2" style="max-width:80px;"></p>
+                      <h5 class="card-title">Connexion personnes agées étudiants 4</h5>
+                    </div>
+                    <div class="card-footer">
+                      <div class="pull-left">
+                        <i class="fa fa-calendar"></i> <span class="font-weight-light">5/12/17 - 5/03/18</span>
+                      </div>
+                      <div class="pull-right">
+                        <i class="fa fa-map-marker"></i> <span class="font-weight-light">Lille, France</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 mb-2 content">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="https://dummyimage.com/400x200/563d7c/ffffff&text=.card-img-top" alt="Card image cap" width="600">
+                    <div class="card-body">
+                      <p class="card-text"><img src="assets/bc79986ab88973a9d021440da870fcff8697a49c.jpg" alt="" class="img-fluid m-2" style="max-width:80px;"></p>
+                      <h5 class="card-title">Connexion personnes agées étudiants 5</h5>
+                    </div>
+                    <div class="card-footer">
+                      <div class="pull-left">
+                        <i class="fa fa-calendar"></i> <span class="font-weight-light">5/12/17 - 5/03/18</span>
+                      </div>
+                      <div class="pull-right">
+                        <i class="fa fa-map-marker"></i> <span class="font-weight-light">Lille, France</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <nav class="pagination-box">
+                <ul class="pagination">
+                  <li class="page-item pag_prev">
+                    <a href="#" class="page-link" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item pag_next">
+                    <a href="#" class="page-link" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 map">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-md-3 text-center">
+            <a href="#"><img src="assets/footer/logo-lille.png" alt="" class="footer-lille-logo"></a>
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <h3>Accès directs</h3>
+            <ul>
+              <li><a href="#">Accueil</a></li>
+              <li><a href="#">Charte éthique</a></li>
+              <li><a href="#">Mentions légales</a></li>
+              <li><a href="#">CGU</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <h3>Agir maintenant!</h3>
+            <ul>
+              <li><a href="#">Carte des missions</a></li>
+              <li><a href="#">Créer un compte citoyen</a></li>
+              <li><a href="#">Créer un compte association / collectif</a></li>
+              <li><a href="#">Créer un compte entreprise</a></li>
+              <li><a href="#">Poser une question</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-3 hacktiv">
+            <h3>Je m'hacktiv</h3>
+            <a href="#"><img src="assets/footer/logo_hacktiv-white.svg" alt=""
+              onmouseover="this.src='assets/footer/logo_hacktiv-red.svg'"
+              onmouseout="this.src='assets/footer/logo_hacktiv-white.svg'" class="hacktiv-logo"></a>
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
+  </body>
+</html>
