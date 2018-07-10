@@ -105,6 +105,9 @@ section .icons p {
 
 
 @media (max-width: 414px) {
+
+  /* HEADER */
+
   .header-img {
     min-height: 300px;
   }
@@ -121,17 +124,37 @@ section .icons p {
     font-size: 24px;
   }
 
-  .btn.cta {
-    font-size: 18px;
-  }
-
   .header-cta h1, .header-cta p  {
     margin-bottom: 1rem;
   }
 
+  /* BUTTONS */
+
+  .btn.cta {
+    font-size: 18px;
+  }
+
+  /* SECTIONS */
+
+  section h2 {
+    font-size: 30px;
+  }
+
+  section p {
+    font-size: 20px;
+  }
+
+  .icons h3 {
+    font-size: 22px;
+  }
+
+
 }
 
 @media (min-width:414px) and (max-width:768px) {
+
+  /* HEADER */
+
   .header-img {
     min-height: 400px;
   }
@@ -148,13 +171,32 @@ section .icons p {
     font-size: 32px;
   }
 
+  /* BUTTONS */
+
   .btn.cta {
     font-size: 22px;
+  }
+
+
+  /* SECTIONS */
+
+  section h2 {
+    font-size: 32px;
+  }
+
+  section p {
+    font-size: 22px;
+  }
+
+  .icons h3 {
+    font-size: 24px;
   }
 
 }
 
 @media (min-width:769px) and (max-width:1199px) {
+
+  /* HEADER */
 
   .header-cta h1 {
     font-size: 65px;
@@ -164,6 +206,7 @@ section .icons p {
     font-size: 36px;
   }
 
+  /* BUTTONS */
   .btn.cta {
     font-size: 24px;
   }
@@ -173,6 +216,7 @@ section .icons p {
 
 @media (min-width:1200px) {
 
+  /* HEADER */
   .header-img {
     min-height: 800px;
   }
