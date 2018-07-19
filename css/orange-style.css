@@ -109,6 +109,26 @@ section .icons p {
 }
 
 
+/* SECTION FILTRE
+* --------------------------------------------------
+*/
+
+.section-filtre {
+  background-color: #4BB4E6;
+}
+
+.section-filtre .form-control {
+  border-radius: 0;
+  border: 2px solid #000;
+}
+
+.btn.submit {
+  color: #FFF;
+  background-color: #FF7900;
+  padding: 7px 40px;
+}
+
+
 /* SECTION CAROUSEL ACTUALITES
 * --------------------------------------------------
 */

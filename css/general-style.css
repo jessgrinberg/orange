@@ -176,14 +176,14 @@ section:not(.section-carte):not(.section-temoignage) {
 
 .section-solution h2,
 .section-thematiques h2,
-.section-filtre h2,
+/*.section-filtre h2,*/
 .section-mission h2 {
   margin-bottom: 30px;
 }
 
 .section-solution h2:after,
 .section-thematiques h2:after,
-.section-filtre h2:after,
+/*.section-filtre h2:after,*/
 .section-mission h2:after {
   display: block;
   height: 2px;
@@ -272,7 +272,7 @@ section:not(.section-carte):not(.section-temoignage) {
 
 .icon-addon{
     position: relative;
-    color: #ff3547;
+    /*color: #ff3547;*/
     display: block;
 }
 
@@ -339,12 +339,12 @@ section:not(.section-carte):not(.section-temoignage) {
 }
 
 .section-filtre .form-control {
-  border-radius: 1.25rem;
-  border: 1px solid #E1001A;
+  /*border-radius: 1.25rem;*/
+  /*border: 1px solid #E1001A;*/
 }
 
 .section-filtre form {
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
