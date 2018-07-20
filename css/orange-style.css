@@ -38,6 +38,10 @@ section .icons p {
   font-size: 18px;
 }
 
+section p {
+  font-weight: 700;
+}
+
 
 
 /*HEADER SPLIT SCREEN*/
@@ -128,6 +132,35 @@ section .icons p {
   padding: 7px 40px;
 }
 
+
+
+/* SECTION CARD MAP
+* --------------------------------------------------
+*/
+
+.section-carte .card {
+  border-width: 0px;
+}
+
+.section-carte h4 {
+  font-size: 24px;
+  color: #FF7900;
+}
+
+.section-carte .card-body {
+  padding: 1.25rem 0 .75rem;
+}
+
+.section-carte .card-footer {
+  font-size: 16px;
+  background-color: #fff;
+  border-top-width: 0px;
+  padding: 0 0 .75rem;
+}
+
+.section-carte .card-footer:last-child {
+  border-radius: 0;
+}
 
 /* SECTION CAROUSEL ACTUALITES
 * --------------------------------------------------

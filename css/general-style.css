@@ -389,29 +389,29 @@ select.form-control {
 
 /*SECTION CARTE*/
 
-.section-carte {
+/*.section-carte {
   background-color: #F7F7F7;
-}
+}*/
 
-.section-carte i.fa {
+/*.section-carte i.fa {
   color: #ff3547;
-}
+}*/
 
 .section-carte .card-body {
-  display: -webkit-box;
+  /*display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-align-items: center;
   -webkit-box-align: center;
      -ms-flex-align: center;
          align-items: center;
-  padding: .25rem;
+  padding: .25rem;*/
 }
 
 .section-carte .card-footer {
-  font-size: 13px;
+  /*font-size: 13px;
   background-color: rgba(0,0,0,.15);
-  border-top: 1px solid orange;
+  border-top: 1px solid orange;*/
 }
 
 .map {
