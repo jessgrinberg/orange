@@ -269,6 +269,9 @@ section p {
     font-size: 22px;
   }
 
+  section > div > p {
+    max-width: 100%;
+  }
 
 }
 
@@ -313,7 +316,12 @@ section p {
     font-size: 24px;
   }
 
+  section > div > p {
+    max-width: 80%;
+  }
+
 }
+
 
 @media (min-width:769px) and (max-width:1199px) {
 
