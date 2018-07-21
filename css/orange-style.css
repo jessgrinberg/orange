@@ -129,7 +129,21 @@ section p {
 .btn.submit {
   color: #FFF;
   background-color: #FF7900;
-  padding: 7px 40px;
+  padding: 7px 20px;
+}
+
+.btn-link {
+  color: #000;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+.custom-select {
+  min-height: 40px;
 }
 
 
