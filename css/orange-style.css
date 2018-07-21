@@ -273,6 +273,18 @@ section p {
     max-width: 100%;
   }
 
+  /* CAROUSEL ACTUALITES */
+  .carousel-caption {
+    padding: 20px 50px 60px;
+  }
+  .carousel-caption h2 {
+    font-size: 30px;
+  }
+
+  .carousel-caption p {
+    font-size: 20px;
+  }
+
 }
 
 @media (min-width:414px) and (max-width:768px) {
@@ -320,8 +332,26 @@ section p {
     max-width: 80%;
   }
 
+  /* CAROUSEL ACTUALITES */
+  .carousel-caption {
+    padding: 20px 80px 50px;
+  }
+  .carousel-caption h2 {
+    font-size: 32px;
+  }
+
+  .carousel-caption p {
+    font-size: 22px;
+  }
+
 }
 
+@media (max-width: 768px) {
+  /* CAROUSEL ACTUALITES */
+  .carousel-caption {
+    position: relative;
+  }
+}
 
 @media (min-width:769px) and (max-width:1199px) {
 
