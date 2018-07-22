@@ -162,9 +162,9 @@ body {
 
 /*SECTION*/
 
-section:not(.section-carte):not(.section-temoignage) {
+/*section:not(.section-carte):not(.section-carousel-temoignage) {
   padding: 60px 0;
-}
+}*/
 
 /*section h2 {
   font-size: 180%;

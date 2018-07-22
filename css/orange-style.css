@@ -42,6 +42,10 @@ section p {
   font-weight: 700;
 }
 
+section:not(.section-carte):not(.section-carousel-temoignage) {
+  padding: 60px 0;
+}
+
 
 
 /*HEADER SPLIT SCREEN*/
@@ -344,6 +348,20 @@ section p {
     font-size: 22px;
   }
 
+}
+
+@media (max-width: 767px) {
+  /* CAROUSEL TESTIMONIALS */
+
+  .section-carousel-temoignage .carousel-item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .section-carousel-temoignage .carousel-item img {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
